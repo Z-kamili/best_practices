@@ -134,6 +134,10 @@ cars.forEach(car => {
 });
 console.log(cars);
 
+//sort 
+let sortedCars = cars.sort((c1,c2) => (c1.capacity < c2.capacity) ? 1 : (c1.capacity > c2.capacity) ? -1 : 0);
+console.log(sortedCars);
+
 
 
 
