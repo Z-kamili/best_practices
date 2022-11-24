@@ -6,7 +6,6 @@ const sweeterArray = sweetArray.map(sweetItem => {
 
 console.log(sweetArray);
 
-
 const sweetArray_2 = sweetArray.map(sweetItem => {
     return sweetItem *4;
 });
