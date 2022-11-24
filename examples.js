@@ -122,5 +122,18 @@ let carsProperties = cars.map(car => {
 
 console.log(carsProperties);
 
+//foreach 
+cars.forEach(car => {
+    car['size'] = "large";
+    if(car.capacity <= 5) {
+        car['size'] = "medium";
+    }
+    if(car.capacity <= 3) {
+        car['size'] = "small";
+    }
+});
+console.log(cars);
+
+
 
 
