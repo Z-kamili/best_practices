@@ -138,6 +138,17 @@ console.log(cars);
 let sortedCars = cars.sort((c1,c2) => (c1.capacity < c2.capacity) ? 1 : (c1.capacity > c2.capacity) ? -1 : 0);
 console.log(sortedCars);
 
+//some and every 
+//Do we have a red cabrio in the list of cars?
+
+let some = cars.some(car => car.color === "red" && car.type === "cabrio");
+//output: true
+
+let every = cars.every(car => car.capacity >= 4);
+//output : false
+
+console.log(some);
+console.log(every);
 
 
 
