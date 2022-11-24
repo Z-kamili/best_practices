@@ -1,17 +1,3 @@
-// const message = 'Hello world' // Try edit me
-
-// Update header text
-// document.querySelector('#header').innerHTML = message
-
-// Log to console
-// console.log(message)
-
-// const kvArray = [
-//   { key: 1, value: 10 },
-//   { key: 2, value: 20 },
-//   { key: 3, value: 30 },
-// ];
-
 const kvArray_2 = [
 
   { key: 1 , value: 10},
@@ -40,9 +26,7 @@ const arrayLike = {
 };
 
 
-// [4,9,16]
+console.log(doubles);
 
-// console.log(doubles);
-
-// console.log(reformatteArray);
+console.log(reformatteArray);
 
