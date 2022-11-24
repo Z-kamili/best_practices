@@ -21,4 +21,11 @@ const kvArray_2 = [
 
 const reformattedArray = kvArray_2.map(({ key, value }) => ({ [key]: value }));
 const reformatteArray =  kvArray_2.map(({key,value}) => ({ [key] : value }));
+
+const numbers = [1,4,9];
+
+const doubles = numbers.map((num)=> num*2);
+
+console.log(doubles);
+
 console.log(reformatteArray);
